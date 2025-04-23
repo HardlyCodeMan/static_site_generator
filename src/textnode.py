@@ -2,6 +2,11 @@ from enum import Enum
 
 class TextType(Enum):
     TEXT = "text"
+    BOLD = "bold"
+    ITALIC = "italic"
+    UNDERLINE = "underline"
+    STRIKETHROUGH = "strikethrough"
+    HIGHLIGHT = "highlight"
     IMAGE = "image"
     VIDEO = "video"
     AUDIO = "audio"
