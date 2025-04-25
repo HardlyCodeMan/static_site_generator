@@ -2,7 +2,7 @@ from htmlnode import HTMLNode
 
 class LeafNode(HTMLNode):
     def __init__(self, tag=None, value=str, props=None):
-        super().__init__(tag, value, props)
+        super().__init__(tag, value, None, props)
         self.tag = tag
         self.value = value
         self.props = props
